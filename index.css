@@ -1,0 +1,77 @@
+// Extra small devices portrait phones, less than 576px
+// No media query since this is the default in Bootstrap
+
+// Small devices landscape phones, 576px and up
+@media (min-width: 576px) { ... }
+
+// Medium devices tablets, 768px and up
+@media (min-width: 768px) { ... }
+
+// Large devices desktops, 992px and up
+@media (min-width: 992px) { ... }
+
+// Extra large devices large desktops, 1200px and up
+@media (min-width: 1200px) { ... }
+
+
+
+
+
+body{
+		font-size: 10px;
+	    font-family: cursive;
+	    background-color: #E0E0E0;
+	    display: block;
+		overflow: auto;
+	 	position: relative;
+	 	height: auto;
+	 	min-height: 100% !important;
+
+}
+/* Nav Bar */
+.circleK {
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	background-color: #CC6600;
+	display: inline-block;
+	margin-right: 12px;
+	margin-bottom: -5px;
+}
+
+#a7anek {
+	color: black !important;
+	margin: 16px 50px;
+	
+}
+
+
+span {
+	font-size: 22px;
+	font-weight: 700;
+}
+
+div {
+    display: block;
+}
+
+
+hr {
+	width: 85%; height: 1px; margin: 20px 96px;
+}
+
+
+
+#soshoss{
+  height: 550px; 
+  width: 700px; 
+  border-radius: 10%;
+  border: 1px solid #ddd;
+  
+  padding: 5px;
+  
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
